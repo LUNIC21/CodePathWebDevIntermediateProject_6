@@ -1,0 +1,128 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.animal-photo{
+  width: 300px;
+  height: 300px;
+  cursor: pointer;
+}
+
+.animal-card{
+  border: solid 3px rgb(136, 176, 251);
+  border-radius: 50px;
+  justify-content: center;
+  margin:auto;
+  margin-bottom: 25px;
+  max-width: 550px;
+  padding: 10px 50px;
+}
+
+.list-container{
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.animal-name{
+  margin: 0px;
+  padding: 0px;
+  font-size: 2em;
+}
+
+.animal-metadata{
+  font-size: 1.25em;
+  font-weight: 600;
+  display: block;
+
+}
+
+.animal-tags{
+  display: block;
+  max-width: 100%;
+  overflow: hidden;
+  font-size: 1.25em;
+}
+
+.animal-tag {
+  margin-right: 5px;
+  background-color: #22ff00;
+  padding: 3px 8px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+  color: #0015ff;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.search-bar{
+  width: 700px;
+  height: 30px;
+  font-size: 2em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.radio-labels{
+  font-size: 1.25em;
+  font-weight: 900;
+}
+
+.radio-buttons{
+  margin-right: 30px;
+}
+
+.clear-radio{
+  font-size: 1.25em;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  background-color: #9effe4;
+}
+
+.filter-options{
+  border: 1px #307cff solid;
+  padding: 25px;
+}
+
+.breed-label{
+  font-size: 1.25em;
+  font-weight: 600;
+}
+
+.breed-dropdown{
+  font-size: 1.25em;
+}
+
+.nav-bar-container{
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: #ffffff;
+  height: 100vh;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-bar-container ul{
+  color: black;
+  font-size: 1.5em;
+  list-style: none;
+  text-align: center;
+  display:inline-block;
+  padding-right: 30px;
+}
+
+.animal-detail{
+  border: 3px rgb(163, 211, 250) solid;
+  margin-left: 200px;
+}
+
+.animal-detail p{
+  font-size: 1.25em;
+}
